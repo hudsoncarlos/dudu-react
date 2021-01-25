@@ -1,0 +1,13 @@
+body {
+  background-color: #222;
+  color: #fff;
+
+  text-align: center; /* hack para o IE */
+  font-family: SegoeUI, "Segoe UI", "Open Sans",Helvetica;
+}
+h1, h2, h3{
+  font-weight: 200;
+}
+h2, h3{
+  margin: 0;
+}
