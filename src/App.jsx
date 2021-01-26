@@ -8,17 +8,32 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#8 - Renderização Condicional" ordem={8} color="#982395">
+        <ParOuImpar numero={new Date().getSeconds()} />
+      </Card>
+
+      <Card titulo="#7 - Repeticao (Desafio)" ordem={7} color="#DD5F32">
+        <TabelaProdutos />
+      </Card>
+
+      <Card titulo="#6 - Repeticao" ordem={6} color="#3A9AD9">
+        <ListaAlunos />
+      </Card>
+
       <Card titulo="#5 - Componente com Filhos" ordem={5} color="#FF85CB">
-        <Familia sobrenome="Neves Silva">
-            <FamiliaMembro nome="Hudson" />
-            <FamiliaMembro nome="Gabriela" />
-            <FamiliaMembro nome="Lara" />
+        <Familia sobrenome="Neves Carlos">
+          <FamiliaMembro nome="Hudson" />
+          <FamiliaMembro nome="Gabriela" />
+          <FamiliaMembro nome="Lara" />
         </Familia>
       </Card>
 
