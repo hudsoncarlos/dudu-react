@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import "./App.css";
 import { React } from "react";
 
@@ -14,7 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 
 export default () => (
   <div className="App">
-    <h1>Fundamentos React</h1>
+    <h1>Dudu-React</h1>
 
     <div className="Cards">
       <Card titulo="#8 - Renderização Condicional" ordem={8} color="#982395">
