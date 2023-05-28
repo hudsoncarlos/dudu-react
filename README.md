@@ -15,9 +15,8 @@ Apostila:
 Após clonar o projeto e inicia-lo no VS Code execute os comando respectivamente.
 
 ```bash
-npx 																				-- Baixa uma dependencia para executar o comando que você ordenou
-npm i 																				-- Baixar as dependencias do projeto
-npm start   																		-- Executa a aplicacao
-npm run start																		-- Executa a aplicacao
-
-``` 																				-- Baixa uma dependencia para executar o comando que você ordenou
+npx - Baixa uma dependência para executar o comando que você ordenou.
+npm i - Baixar as dependências do projeto.
+npm start - Executa a aplicação.
+npm run start - Executa a aplicação.
+```
