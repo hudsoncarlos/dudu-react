@@ -15,7 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 function App() {
   return (
     <div className="App">
-      <h1>Fundamentos React</h1>
+      <h1>Dudu-React</h1>
 
       <div className="Cards">
         <Card titulo="#8 - Renderização Condicional" ordem={8} color="#982395">
