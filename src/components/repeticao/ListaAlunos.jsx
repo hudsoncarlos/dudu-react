@@ -1,7 +1,7 @@
 import React from "react";
 import alunos from "../../data/alunos";
 
-export default (props) => {
+export default function ListaAlunos(props) {
   const lis = alunos.map((aluno) => {
     return (
       <li key={aluno.id}>

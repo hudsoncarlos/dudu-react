@@ -1,4 +1,4 @@
-export default [
+const alunos = [
     { id: 1, nome: 'Hudson', nota: 6.2 },
     { id: 2, nome: 'Gabriela', nota: 7.6 },
     { id: 3, nome: 'Lara', nota: 8.1 },
@@ -9,3 +9,5 @@ export default [
     { id: 8, nome: 'Vera', nota: 6.9 },
     { id: 9, nome: 'Edson', nota: 8.8 }
 ]
+
+export default alunos
